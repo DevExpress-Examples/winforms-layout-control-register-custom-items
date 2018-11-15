@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/DXExample/Form1.cs) (VB: [Form1.vb](./VB/DXExample/Form1.vb))
+<!-- default file list end -->
 # How to register custom layout items in LayoutControl
 
 
