@@ -58,5 +58,21 @@ namespace DXExample {
 
             }
         }
+        
+        [XtraSerializableProperty()]
+        public int TabIndex
+        {
+            get
+            {
+                if (this.Control == null)
+                    return -1;
+                return this.Control.TabIndex;
+            }
+            set
+            {
+                if (this.Control != null)
+                    this.Control.TabIndex = value;
+            }
+        }
     }
 }
